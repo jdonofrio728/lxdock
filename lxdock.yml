@@ -1,0 +1,10 @@
+name: sandbox
+image: ubuntu/xenial
+
+containers:
+  - name: sandbox-01
+
+provisioning:
+  - type: shell
+    inline: apt update
+  - type: salt

@@ -9,3 +9,4 @@ from .ansible import *  # noqa
 from .base import *  # noqa
 from .puppet import *  # noqa
 from .shell import *  # noqa
+from .salt import *
